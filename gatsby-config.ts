@@ -1,15 +1,20 @@
 import type { GatsbyConfig } from "gatsby";
+import path from "path"
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `cw-gatsby`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.tennesseethetatau.com`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: [
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-provide-react"
+  ]
 };
 
 export default config;

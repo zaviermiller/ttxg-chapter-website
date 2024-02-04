@@ -8,24 +8,34 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "dev": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
+    "start": "serve -p 3000 public",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@reach/router": "^1.3.4",
+    "@tabler/icons-react": "^2.46.0",
     "autoprefixer": "^10.4.17",
     "gatsby": "^5.13.2",
+    "gatsby-plugin-layout": "^4.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-provide-react": "^1.0.2",
+    "gatsby-plugin-typescript": "^5.13.1",
     "postcss": "^8.4.33",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.4.1"
+    "react-fast-marquee": "^1.6.3",
+    "react-qr-code": "^2.0.12",
+    "tailwindcss": "^3.4.1",
+    "usehooks-ts": "^2.10.0"
   },
   "devDependencies": {
-    "@types/node": "^20.11.5",
+    "@types/node": "^20.11.10",
+    "@types/reach__router": "^1.3.15",
     "@types/react": "^18.2.48",
     "@types/react-dom": "^18.2.18",
     "typescript": "^5.3.3"
