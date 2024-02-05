@@ -13,8 +13,8 @@ const config: GatsbyConfig = {
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-typescript",
-    "gatsby-plugin-provide-react"
-  ]
+    "gatsby-plugin-provide-react",
+  ],
 };
 
 export default config;

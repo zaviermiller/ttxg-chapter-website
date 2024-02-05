@@ -43,8 +43,7 @@ export default function AboutPage() {
             </p>
           </div>
           <div className="flex flex-col w-full md:w-1/2 justify-center items-end space-y-4">
-            {/* <Image src="/about/chi-gamma.webp" alt="The brothers of Chi Gamma" width="600" height="361" className="transition-all translate-x-10 opacity-0 ease-out duration-[.8s]" onLoadingComplete={(image) => image.classList.remove("translate-x-10", "opacity-0")} /> */}
-            <img src="/img/about/chi-gamma.webp" alt="The brothers of Chi Gamma" width="650" height="361" />
+            <img src="/img/about/chapter-sp24.jpeg" alt="The brothers of Chi Gamma" width="650" height="361" />
           </div>
         </div>
 
@@ -139,7 +138,7 @@ export default function AboutPage() {
                 </p>
             </div>
             <div className="flex flex-col md:flex-row w-full md:w-2/5">
-              service image
+              <img src="/img/service/lake-cleanup.jpeg" alt="Chi Gamma brothers cleaning up the Tennessee River" width="500" height="361" />
             </div>
           </div>
         </div>
@@ -180,7 +179,7 @@ export default function AboutPage() {
                 </p>
             </div>
             <div className="flex flex-col md:flex-row w-full md:w-2/5">
-              cabin image
+              <img src="/img/brotherhood/cabin-karting.jpeg" alt="Chi Gamma brothers Go-Karting in Gatlinburg" width="600" height="500" />
             </div>
           </div>
         </div>
