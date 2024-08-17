@@ -29,13 +29,13 @@ export default function useRushPage(): AboutPageData {
           aboutChiGamma
         }
         aboutChiGammaImage {
-          publicUrl
+          url
         }
         aboutThetaTau {
           aboutThetaTau
         }
         aboutThetaTauImage {
-          publicUrl
+          url
         }
         pdSection {
           pillarName
@@ -44,19 +44,19 @@ export default function useRushPage(): AboutPageData {
             sectionDescription1
           }
           sectionImage1 {
-            publicUrl
+            url
           }
           sectionDescription2 {
             sectionDescription2
           }
           sectionImage2 {
-            publicUrl
+            url
           }
           sectionDescription3 {
             sectionDescription3
           }
           sectionImage3 {
-            publicUrl
+            url
           }
         }
         serviceSection {
@@ -66,19 +66,19 @@ export default function useRushPage(): AboutPageData {
             sectionDescription1
           }
           sectionImage1 {
-            publicUrl
+            url
           }
           sectionDescription2 {
             sectionDescription2
           }
           sectionImage2 {
-            publicUrl
+            url
           }
           sectionDescription3 {
             sectionDescription3
           }
           sectionImage3 {
-            publicUrl
+            url
           }
         }
         brotherhoodSection {
@@ -88,19 +88,19 @@ export default function useRushPage(): AboutPageData {
             sectionDescription1
           }
           sectionImage1 {
-            publicUrl
+            url
           }
           sectionDescription2 {
             sectionDescription2
           }
           sectionImage2 {
-            publicUrl
+            url
           }
           sectionDescription3 {
             sectionDescription3
           }
           sectionImage3 {
-            publicUrl
+            url
           }
         }
       }
@@ -109,29 +109,24 @@ export default function useRushPage(): AboutPageData {
 
   return {
     aboutChiGammaDesc: data.contentfulAboutPage.aboutChiGamma.aboutChiGamma,
-    aboutChiGammaImageUrl:
-      data.contentfulAboutPage.aboutChiGammaImage.publicUrl,
+    aboutChiGammaImageUrl: data.contentfulAboutPage.aboutChiGammaImage.url,
     aboutThetaTauDesc: data.contentfulAboutPage.aboutThetaTau.aboutThetaTau,
-    aboutThetaTauImageUrl:
-      data.contentfulAboutPage.aboutThetaTauImage.publicUrl,
+    aboutThetaTauImageUrl: data.contentfulAboutPage.aboutThetaTauImage.url,
     pdSection: {
       name: data.contentfulAboutPage.pdSection.pillarName,
       cardDescription: data.contentfulAboutPage.pdSection.cardDescription,
       section1Desc:
         data.contentfulAboutPage.pdSection.sectionDescription1
           .sectionDescription1,
-      section1ImageUrl:
-        data.contentfulAboutPage.pdSection.sectionImage1.publicUrl,
+      section1ImageUrl: data.contentfulAboutPage.pdSection.sectionImage1.url,
       section2Desc:
         data.contentfulAboutPage.pdSection.sectionDescription2
           .sectionDescription2,
-      section2ImageUrl:
-        data.contentfulAboutPage.pdSection.sectionImage2.publicUrl,
+      section2ImageUrl: data.contentfulAboutPage.pdSection.sectionImage2.url,
       section3Desc:
         data.contentfulAboutPage.pdSection.sectionDescription3
           .sectionDescription3,
-      section3ImageUrl:
-        data.contentfulAboutPage.pdSection.sectionImage3.publicUrl,
+      section3ImageUrl: data.contentfulAboutPage.pdSection.sectionImage3.url,
     },
     serviceSection: {
       name: data.contentfulAboutPage.serviceSection.pillarName,
@@ -140,17 +135,17 @@ export default function useRushPage(): AboutPageData {
         data.contentfulAboutPage.serviceSection.sectionDescription1
           .sectionDescription1,
       section1ImageUrl:
-        data.contentfulAboutPage.serviceSection.sectionImage1.publicUrl,
+        data.contentfulAboutPage.serviceSection.sectionImage1.url,
       section2Desc:
         data.contentfulAboutPage.serviceSection.sectionDescription2
           .sectionDescription2,
       section2ImageUrl:
-        data.contentfulAboutPage.serviceSection.sectionImage2.publicUrl,
+        data.contentfulAboutPage.serviceSection.sectionImage2.url,
       section3Desc:
         data.contentfulAboutPage.serviceSection.sectionDescription3
           .sectionDescription3,
       section3ImageUrl:
-        data.contentfulAboutPage.serviceSection.sectionImage3.publicUrl,
+        data.contentfulAboutPage.serviceSection.sectionImage3.url,
     },
     brotherhoodSection: {
       name: data.contentfulAboutPage.brotherhoodSection.pillarName,
@@ -160,17 +155,17 @@ export default function useRushPage(): AboutPageData {
         data.contentfulAboutPage.brotherhoodSection.sectionDescription1
           .sectionDescription1,
       section1ImageUrl:
-        data.contentfulAboutPage.brotherhoodSection.sectionImage1.publicUrl,
+        data.contentfulAboutPage.brotherhoodSection.sectionImage1.url,
       section2Desc:
         data.contentfulAboutPage.brotherhoodSection.sectionDescription2
           .sectionDescription2,
       section2ImageUrl:
-        data.contentfulAboutPage.brotherhoodSection.sectionImage2.publicUrl,
+        data.contentfulAboutPage.brotherhoodSection.sectionImage2.url,
       section3Desc:
         data.contentfulAboutPage.brotherhoodSection.sectionDescription3
           .sectionDescription3,
       section3ImageUrl:
-        data.contentfulAboutPage.brotherhoodSection.sectionImage3.publicUrl,
+        data.contentfulAboutPage.brotherhoodSection.sectionImage3.url,
     },
   };
 }

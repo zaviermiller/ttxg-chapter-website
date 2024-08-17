@@ -14,7 +14,7 @@ export default function useRushPage(): RushPageData {
       contentfulRushPage {
         rushTitle
         rushPoster {
-          publicUrl
+          url
         }
         rushGroupMe
         rushDescription {
@@ -29,7 +29,7 @@ export default function useRushPage(): RushPageData {
     title: data.contentfulRushPage.rushTitle,
     description: data.contentfulRushPage.rushDescription.rushDescription,
     groupMeLink: data.contentfulRushPage.rushGroupMe,
-    posterImageUrl: data.contentfulRushPage.rushPoster.publicUrl,
+    posterImageUrl: data.contentfulRushPage.rushPoster.url,
     active: data.contentfulRushPage.active,
   };
 }

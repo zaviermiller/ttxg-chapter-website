@@ -10,13 +10,13 @@ export default function Home() {
     query HomeQuery {
       contentfulHomePage {
         images {
-          publicUrl
+          url
         }
         middleImages {
-          publicUrl
+          url
         }
         bottomImages {
-          publicUrl
+          url
         }
       }
     }
@@ -24,22 +24,20 @@ export default function Home() {
 
   const topImages = useMemo(
     () =>
-      data.contentfulHomePage.images.map(
-        (image: { publicUrl: string }) => image.publicUrl
-      ),
+      data.contentfulHomePage.images.map((image: { url: string }) => image.url),
     [data.contentfulHomePage.images]
   );
   const middleImages = useMemo(
     () =>
       data.contentfulHomePage.middleImages.map(
-        (image: { publicUrl: string }) => image.publicUrl
+        (image: { url: string }) => image.url
       ),
     [data.contentfulHomePage.middleImages]
   );
   const bottomImages = useMemo(
     () =>
       data.contentfulHomePage.bottomImages.map(
-        (image: { publicUrl: string }) => image.publicUrl
+        (image: { url: string }) => image.url
       ),
     [data.contentfulHomePage.bottomImages]
   );
