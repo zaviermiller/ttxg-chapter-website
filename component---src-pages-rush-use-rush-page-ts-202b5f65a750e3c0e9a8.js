@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkcw_gatsby=self.webpackChunkcw_gatsby||[]).push([[16],{9748:function(t,e,u){u.r(e),u.d(e,{default:function(){return s}});var n=u(7465);function s(){const t=(0,n.K2)("3002867980");return{title:t.contentfulRushPage.rushTitle,description:t.contentfulRushPage.rushDescription.rushDescription,groupMeLink:t.contentfulRushPage.rushGroupMe,posterImageUrl:t.contentfulRushPage.rushPoster.publicUrl,active:t.contentfulRushPage.active}}}}]);
+//# sourceMappingURL=component---src-pages-rush-use-rush-page-ts-202b5f65a750e3c0e9a8.js.map
