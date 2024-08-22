@@ -39,7 +39,7 @@ export default function Rush() {
     </div>
   ) : (
     <div className="flex flex-col space-y-6 mt-4 md:space-y-0 md:mt-0 w-full px-8 lg:px-20 justify-start items-center py-12">
-      <h1 className="text-3xl font-medium mb-4 text-gray-700 tracking-tight">
+      <h1 className="text-3xl font-medium mb-4 text-gray-800 tracking-tight">
         Rush has ended this semester.
       </h1>
       <h3 className="text-lg text-gray-500">
